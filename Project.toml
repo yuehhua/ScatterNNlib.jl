@@ -1,0 +1,13 @@
+name = "ScatterNNlib"
+uuid = "b1168b60-8710-48c1-88d2-5c53ae207dd0"
+authors = ["Yueh-Hua Tu"]
+version = "0.1.0"
+
+[compat]
+julia = "1.4"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
