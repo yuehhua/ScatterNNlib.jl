@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="228.6mm" height="152.4mm" viewBox="0 0 228.6 152.4"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<defs>
+  <marker id="arrow" markerWidth="15" markerHeight="7" refX="5" refY="3.5" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L15,3.5 L0,7 z" stroke="context-stroke" fill="context-stroke"/>
+  </marker>
+</defs>
+<g class="plotroot xscalable yscalable" id="img-b9cea107-1">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b9cea107-2">
+    <g transform="translate(110.55,140.79)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Matrix Size</text>
+      </g>
+    </g>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-b9cea107-3">
+    <g transform="translate(32.09,132.78)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">5</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(84.39,132.78)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">10</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(136.7,132.78)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">15</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(189,132.78)">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">2<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">20</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="guide colorkey" id="img-b9cea107-4">
+    <g fill="#4C404B" font-size="2.82" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" id="img-b9cea107-5">
+      <g transform="translate(205.27,71.19)" id="img-b9cea107-6" class="color_ScatterNNlib.jl">
+        <g class="primitive">
+          <text dy="0.35em">ScatterNNlib.jl</text>
+        </g>
+      </g>
+      <g transform="translate(205.27,74.82)" id="img-b9cea107-7" class="color_Pytorch-scatter">
+        <g class="primitive">
+          <text dy="0.35em">Pytorch-scatter</text>
+        </g>
+      </g>
+    </g>
+    <g fill-opacity="1" id="img-b9cea107-8">
+      <g transform="translate(203.37,71.19)" id="img-b9cea107-9" stroke="#FFFFFF" class="color_ScatterNNlib.jl" fill="#00BFFF">
+        <path d="M-0.91,-0.91 L 0.91 -0.91 0.91 0.91 -0.91 0.91 z" class="primitive"/>
+      </g>
+      <g transform="translate(203.37,74.82)" id="img-b9cea107-10" stroke="#FFFFFF" class="color_Pytorch-scatter" fill="#D4CA3A">
+        <path d="M-0.91,-0.91 L 0.91 -0.91 0.91 0.91 -0.91 0.91 z" class="primitive"/>
+      </g>
+    </g>
+    <g fill="#362A35" font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" stroke="#000000" stroke-opacity="0.000" id="img-b9cea107-11">
+      <g transform="translate(202.46,67.37)" id="img-b9cea107-12">
+        <g class="primitive">
+          <text dy="-0em">framework</text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g clip-path="url(#img-b9cea107-13)">
+    <g id="img-b9cea107-14">
+      <g pointer-events="visible" stroke-width="0.3" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-b9cea107-15">
+        <g transform="translate(110.55,71.19)" id="img-b9cea107-16">
+          <path d="M-90.91,-60.58 L 90.91 -60.58 90.91 60.58 -90.91 60.58 z" class="primitive"/>
+        </g>
+      </g>
+      <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-b9cea107-17">
+        <g transform="translate(110.55,129.78)" id="img-b9cea107-18">
+          <path fill="none" d="M-90.91,0 L 90.91 0" class="primitive"/>
+        </g>
+        <g transform="translate(110.55,110.25)" id="img-b9cea107-19">
+          <path fill="none" d="M-90.91,0 L 90.91 0" class="primitive"/>
+        </g>
+        <g transform="translate(110.55,90.72)" id="img-b9cea107-20">
+          <path fill="none" d="M-90.91,0 L 90.91 0" class="primitive"/>
+        </g>
+        <g transform="translate(110.55,71.19)" id="img-b9cea107-21">
+          <path fill="none" d="M-90.91,0 L 90.91 0" class="primitive"/>
+        </g>
+        <g transform="translate(110.55,51.67)" id="img-b9cea107-22">
+          <path fill="none" d="M-90.91,0 L 90.91 0" class="primitive"/>
+        </g>
+        <g transform="translate(110.55,32.14)" id="img-b9cea107-23">
+          <path fill="none" d="M-90.91,0 L 90.91 0" class="primitive"/>
+        </g>
+        <g transform="translate(110.55,12.61)" id="img-b9cea107-24">
+          <path fill="none" d="M-90.91,0 L 90.91 0" class="primitive"/>
+        </g>
+      </g>
+      <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-b9cea107-25">
+        <g transform="translate(32.09,71.19)" id="img-b9cea107-26">
+          <path fill="none" d="M0,-60.58 L 0 60.58" class="primitive"/>
+        </g>
+        <g transform="translate(84.39,71.19)" id="img-b9cea107-27">
+          <path fill="none" d="M0,-60.58 L 0 60.58" class="primitive"/>
+        </g>
+        <g transform="translate(136.7,71.19)" id="img-b9cea107-28">
+          <path fill="none" d="M0,-60.58 L 0 60.58" class="primitive"/>
+        </g>
+        <g transform="translate(189,71.19)" id="img-b9cea107-29">
+          <path fill="none" d="M0,-60.58 L 0 60.58" class="primitive"/>
+        </g>
+      </g>
+      <g class="plotpanel" id="img-b9cea107-30">
+        <metadata>
+          <boundingbox value="19.63166666666669mm 10.611666666666665mm 181.82833333333332mm 121.16666666666664mm"/>
+          <unitbox value="3.8088043712569237 6.102418207681366 17.38239125748615 -6.204836415362731"/>
+        </metadata>
+        <g stroke-width="0.3" fill="#000000" fill-opacity="0.000" class="geometry" id="img-b9cea107-31">
+          <g transform="translate(110.55,69.36)" id="img-b9cea107-32" stroke="#00BFFF" class="color_ScatterNNlib.jl" stroke-dasharray="none">
+            <path fill="none" d="M-78.45,44.15 L -26.15 14.94 26.15 -14.53 78.45 -44.56" class="primitive"/>
+          </g>
+          <g transform="translate(110.55,74.65)" id="img-b9cea107-33" stroke="#D4CA3A" class="color_Pytorch-scatter" stroke-dasharray="none">
+            <path fill="none" d="M-78.45,25.61 L -26.15 18.74 26.15 -6.91 78.45 -37.44" class="primitive"/>
+          </g>
+        </g>
+        <g class="geometry" id="img-b9cea107-34">
+          <g stroke-width="0.3" id="img-b9cea107-35">
+            <g class="color_Pytorch-scatter" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-b9cea107-36">
+              <g class="marker" id="img-b9cea107-37">
+                <g transform="translate(189,37.21)" id="img-b9cea107-38">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Pytorch-scatter" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-b9cea107-39">
+              <g class="marker" id="img-b9cea107-40">
+                <g transform="translate(136.7,67.74)" id="img-b9cea107-41">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Pytorch-scatter" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-b9cea107-42">
+              <g class="marker" id="img-b9cea107-43">
+                <g transform="translate(84.39,93.4)" id="img-b9cea107-44">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_Pytorch-scatter" fill-opacity="1" stroke="#FFFFFF" fill="#D4CA3A" id="img-b9cea107-45">
+              <g class="marker" id="img-b9cea107-46">
+                <g transform="translate(32.09,100.26)" id="img-b9cea107-47">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_ScatterNNlib.jl" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-b9cea107-48">
+              <g class="marker" id="img-b9cea107-49">
+                <g transform="translate(189,24.8)" id="img-b9cea107-50">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_ScatterNNlib.jl" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-b9cea107-51">
+              <g class="marker" id="img-b9cea107-52">
+                <g transform="translate(136.7,54.83)" id="img-b9cea107-53">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_ScatterNNlib.jl" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-b9cea107-54">
+              <g class="marker" id="img-b9cea107-55">
+                <g transform="translate(84.39,84.3)" id="img-b9cea107-56">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+            <g class="color_ScatterNNlib.jl" fill-opacity="1" stroke="#FFFFFF" fill="#00BFFF" id="img-b9cea107-57">
+              <g class="marker" id="img-b9cea107-58">
+                <g transform="translate(32.09,113.51)" id="img-b9cea107-59">
+                  <circle cx="0" cy="0" r="0.9" class="primitive"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-b9cea107-60">
+    <g transform="translate(18.63,129.78)" id="img-b9cea107-61">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">0</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(18.63,110.25)" id="img-b9cea107-62">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">1</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(18.63,90.72)" id="img-b9cea107-63">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">2</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(18.63,71.19)" id="img-b9cea107-64">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">3</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(18.63,51.67)" id="img-b9cea107-65">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">4</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(18.63,32.14)" id="img-b9cea107-66">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">5</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+    <g transform="translate(18.63,12.61)" id="img-b9cea107-67">
+      <g class="primitive">
+        <text text-anchor="end" dy="0.35em">10<tspan style="dominant-baseline:inherit" dy="-0.6em" font-size="83%">6</tspan><tspan dy="0.498000em"></tspan></text>
+      </g>
+    </g>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b9cea107-68">
+    <g transform="translate(8.81,69.19)" id="img-b9cea107-69">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.35em" transform="rotate(-90,0, 2)">Time (μs)</text>
+      </g>
+    </g>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b9cea107-70">
+    <g transform="translate(110.55,5)" id="img-b9cea107-71">
+      <g class="primitive">
+        <text text-anchor="middle" dy="0.6em">Scatter add performance on CPU</text>
+      </g>
+    </g>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-b9cea107-13">
+    <path d="M19.63,10.61 L 201.46 10.61 201.46 131.78 19.63 131.78" />
+  </clipPath>
+</defs>
+</svg>
