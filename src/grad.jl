@@ -1,5 +1,3 @@
-## Derivatives of scatter operations
-
 @adjoint function scatter_add!(ys::AbstractArray, us::AbstractArray, xs::AbstractArray)
     ys_ = copy(ys)
     scatter_add!(ys_, us, xs)
