@@ -4,6 +4,9 @@ us = ones(Int, 2, 3, 4)
 xs = [1 2 3 4;
       4 2 1 3;
       3 5 5 3]
+xs_tup = [(1,) (2,) (3,) (4,);
+          (4,) (2,) (1,) (3,);
+          (3,) (5,) (5,) (3,)]
 types = [UInt8, UInt16, UInt32, UInt64, UInt128,
          Int8, Int16, Int32, Int64, Int128, BigInt,
          Float16, Float32, Float64, BigFloat, Rational]
@@ -19,6 +22,11 @@ types = [UInt8, UInt16, UInt32, UInt64, UInt128,
                 @test scatter_add!(T.(copy(ys)), us, xs) == PT.(ys_)
                 @test scatter_add!(copy(ys), T.(us), xs) == PT.(ys_)
                 @test scatter!(:add, T.(copy(ys)), T.(us), xs) == T.(ys_)
+
+                @test scatter_add!(T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
+                @test scatter_add!(T.(copy(ys)), us, xs_tup) == PT.(ys_)
+                @test scatter_add!(copy(ys), T.(us), xs_tup) == PT.(ys_)
+                @test scatter!(:add, T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
             end
 
             @testset "scatter_sub!" begin
@@ -28,6 +36,11 @@ types = [UInt8, UInt16, UInt32, UInt64, UInt128,
                 @test scatter_sub!(T.(copy(ys)), us, xs) == PT.(ys_)
                 @test scatter_sub!(copy(ys), T.(us), xs) == PT.(ys_)
                 @test scatter!(:sub, T.(copy(ys)), T.(us), xs) == T.(ys_)
+
+                @test scatter_sub!(T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
+                @test scatter_sub!(T.(copy(ys)), us, xs_tup) == PT.(ys_)
+                @test scatter_sub!(copy(ys), T.(us), xs_tup) == PT.(ys_)
+                @test scatter!(:sub, T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
             end
 
             @testset "scatter_max!" begin
@@ -37,6 +50,11 @@ types = [UInt8, UInt16, UInt32, UInt64, UInt128,
                 @test scatter_max!(T.(copy(ys)), us, xs) == PT.(ys_)
                 @test scatter_max!(copy(ys), T.(us), xs) == PT.(ys_)
                 @test scatter!(:max, T.(copy(ys)), T.(us), xs) == T.(ys_)
+
+                @test scatter_max!(T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
+                @test scatter_max!(T.(copy(ys)), us, xs_tup) == PT.(ys_)
+                @test scatter_max!(copy(ys), T.(us), xs_tup) == PT.(ys_)
+                @test scatter!(:max, T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
             end
 
             @testset "scatter_min!" begin
@@ -46,6 +64,11 @@ types = [UInt8, UInt16, UInt32, UInt64, UInt128,
                 @test scatter_min!(T.(copy(ys)), us, xs) == PT.(ys_)
                 @test scatter_min!(copy(ys), T.(us), xs) == PT.(ys_)
                 @test scatter!(:min, T.(copy(ys)), T.(us), xs) == T.(ys_)
+
+                @test scatter_min!(T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
+                @test scatter_min!(T.(copy(ys)), us, xs_tup) == PT.(ys_)
+                @test scatter_min!(copy(ys), T.(us), xs_tup) == PT.(ys_)
+                @test scatter!(:min, T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
             end
 
             @testset "scatter_mul!" begin
@@ -55,6 +78,11 @@ types = [UInt8, UInt16, UInt32, UInt64, UInt128,
                 @test scatter_mul!(T.(copy(ys)), us, xs) == PT.(ys_)
                 @test scatter_mul!(copy(ys), T.(us), xs) == PT.(ys_)
                 @test scatter!(:mul, T.(copy(ys)), T.(us), xs) == T.(ys_)
+
+                @test scatter_mul!(T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
+                @test scatter_mul!(T.(copy(ys)), us, xs_tup) == PT.(ys_)
+                @test scatter_mul!(copy(ys), T.(us), xs_tup) == PT.(ys_)
+                @test scatter!(:mul, T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
             end
         end
     end
@@ -70,6 +98,11 @@ types = [UInt8, UInt16, UInt32, UInt64, UInt128,
                 @test scatter_div!(T.(copy(ys)), us_div, xs) == PT.(ys_)
                 @test scatter_div!(copy(ys), T.(us_div), xs) == PT.(ys_)
                 @test scatter!(:div, T.(copy(ys)), T.(us_div), xs) == T.(ys_)
+
+                @test scatter_div!(T.(copy(ys)), T.(us_div), xs_tup) == T.(ys_)
+                @test scatter_div!(T.(copy(ys)), us_div, xs_tup) == PT.(ys_)
+                @test scatter_div!(copy(ys), T.(us_div), xs_tup) == PT.(ys_)
+                @test scatter!(:div, T.(copy(ys)), T.(us_div), xs_tup) == T.(ys_)
             end
 
             @testset "scatter_mean!" begin
@@ -79,6 +112,11 @@ types = [UInt8, UInt16, UInt32, UInt64, UInt128,
                 @test scatter_mean!(T.(copy(ys)), us, xs) == PT.(ys_)
                 @test scatter_mean!(copy(ys), T.(us), xs) == PT.(ys_)
                 @test scatter!(:mean, T.(copy(ys)), T.(us), xs) == T.(ys_)
+
+                @test scatter_mean!(T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
+                @test scatter_mean!(T.(copy(ys)), us, xs_tup) == PT.(ys_)
+                @test scatter_mean!(copy(ys), T.(us), xs_tup) == PT.(ys_)
+                @test scatter!(:mean, T.(copy(ys)), T.(us), xs_tup) == T.(ys_)
             end
         end
     end

@@ -42,7 +42,7 @@ if CUDA.functional()
 
     include("cuda/cuarray.jl")
     include("cuda/grad.jl")
-    include("cuda/utils.jl")
+    include("cuda/gather.jl")
 else
     @warn "CUDA unavailable, not loading CUDA support"
 end
