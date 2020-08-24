@@ -98,7 +98,7 @@ for op = [:add, :sub, :mul, :div, :max, :min]
 end
 
 
-function scatter_mean!(ys::CuMatrix{T}, us::CuArray{T}, xs::CuArray{Int}) where {T<:AbstractFloat}
+function scatter_mean!(ys::CuMatrix{T}, us::CuArray{T}, xs::CuArray{<:IntOrTuple}) where {T<:AbstractFloat}
     yt = CUDA.zero(ys)
     ot = CUDA.zero(ys)
     os = CUDA.one.(us)
