@@ -3,7 +3,8 @@
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://yuehhua.github.io/ScatterNNlib.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://yuehhua.github.io/ScatterNNlib.jl/dev)
 [![Build Status](https://travis-ci.org/yuehhua/ScatterNNlib.jl.svg?branch=master)](https://travis-ci.org/yuehhua/ScatterNNlib.jl)
-[![Coverage](https://codecov.io/gh/yuehhua/ScatterNNlib.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/yuehhua/ScatterNNlib.jl)
+[![pipeline status](https://gitlab.com/JuliaGPU/ScatterNNlib.jl/badges/master/pipeline.svg)](https://gitlab.com/JuliaGPU/ScatterNNlib.jl/commits/master)
+[![coverage report](https://gitlab.com/JuliaGPU/ScatterNNlib.jl/badges/master/coverage.svg)](https://gitlab.com/JuliaGPU/ScatterNNlib.jl/commits/master)
 
 A scatter operation library for neural network
 
