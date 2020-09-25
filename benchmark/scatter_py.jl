@@ -7,6 +7,8 @@ using BenchmarkTools: Trial, TrialEstimate, median, mean
 py"""
 import torch
 import torch_scatter as sc
+print("Pytorch v", torch.__version__)
+print("Pytorch-scatter v", sc.__version__)
 cuda = torch.device("cuda:0")
 d = 50
 nbins = 20
@@ -36,8 +38,8 @@ for l = [2^5, 2^10, 2^15, 2^20]
     sc.scatter_add(delta_gpu, idx_gpu, out=hist_gpu)
     """
 
-    b_cpu = @benchmark py"sc.scatter_add(delta, idx, out=hist)";
-    b_gpu = @benchmark py"sc.scatter_add(delta_gpu, idx_gpu, out=hist_gpu)";
+    b_cpu = @benchmark py"sc.scatter(delta, idx, out=hist, reduce='sum')";
+    b_gpu = @benchmark py"sc.scatter(delta_gpu, idx_gpu, out=hist_gpu, reduce='sum')";
     s_cpu = getstats(b_cpu)
     s_gpu = getstats(b_gpu)
 

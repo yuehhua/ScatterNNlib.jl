@@ -1,9 +1,13 @@
+using Pkg
 using CUDA
-using GeometricFlux
+using ScatterNNlib
 using DataFrames
 using CSV
 using BenchmarkTools
 using BenchmarkTools: Trial, TrialEstimate, median, mean
+
+Pkg.status("ScatterNNlib")
+Pkg.status("CUDA")
 
 ENV["JULIA_NUM_THREADS"] = 1
 

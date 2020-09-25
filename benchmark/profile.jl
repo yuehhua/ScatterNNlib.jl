@@ -1,4 +1,4 @@
-using CUDAdrv
+using CUDA
 using GeometricFlux
 using Profile
 using ProfileView
