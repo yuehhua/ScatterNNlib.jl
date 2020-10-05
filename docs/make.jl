@@ -6,7 +6,9 @@ makedocs(
     authors = "Yueh-Hua Tu",
     repo = "https://github.com/yuehhua/ScatterNNlib.jl/blob/{commit}{path}#L{line}",
     sitename = "ScatterNNlib",
-    format = Documenter.HTML(),
+    format = Documenter.HTML(
+        canonical = "https://yuehhua.github.io/ScatterNNlib.jl/stable"
+    ),
     pages=[
         "Home" => "index.md",
         "Manual" =>
