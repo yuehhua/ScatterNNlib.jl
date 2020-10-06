@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.3]
+
+- Add doc page
+- Bump CUDA to v2.0
+- Not support bool type
+
 ## [0.1.2]
 
 - Increase test coverage for dense array, static array and cuarray
