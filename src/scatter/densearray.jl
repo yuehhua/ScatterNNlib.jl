@@ -177,13 +177,6 @@ function scatter_mean!(ys::Array{T}, us::Array{T}, xs::Array{<:IntOrTuple}) wher
 end
 
 
-## Bool
-
-function scatter_add!(ys::Array{Bool}, us::Array{Bool}, xs::Array{<:IntOrTuple})
-    scatter_add!(Int8.(ys), Int8.(us), xs)
-end
-
-
 # Support different types of array
 for op = ops
     fn = Symbol("scatter_$(op)!")
