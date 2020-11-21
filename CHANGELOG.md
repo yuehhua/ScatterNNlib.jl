@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.5]
+
+- Support CUDA v2.2 and v2.3
+
 ## [0.1.4]
 
 - Support CUDA v2.1
