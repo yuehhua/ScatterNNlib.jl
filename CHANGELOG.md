@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.6]
+
+- Support StaticArrays v1.0
+
 ## [0.1.5]
 
 - Support CUDA v2.2 and v2.3
