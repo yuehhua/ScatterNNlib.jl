@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.7]
+
+- Support Julia v1.6
+
 ## [0.1.6]
 
 - Support StaticArrays v1.0
