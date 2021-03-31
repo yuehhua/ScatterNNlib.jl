@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.7]
+
+- Support CUDA up to v2.6
+- Support FillArrays v0.11
+- Support Zygote v0.6
+
 ## [0.1.6]
 
 - Support Julia v1.6
