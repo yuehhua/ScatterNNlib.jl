@@ -3,6 +3,8 @@
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://yuehhua.github.io/ScatterNNlib.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://yuehhua.github.io/ScatterNNlib.jl/dev)
 
+## Notice!! This repository is not under maintained. All functionalities have been migrated to NNlib.jl and NNlibCUDA.jl.
+
 A scatter operation library for neural network
 
 ## Benchmark
